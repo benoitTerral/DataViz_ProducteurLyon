@@ -22,7 +22,6 @@ day_mapping = {
 }
 
 def random_func(row, featuregroups):
-	# for group_key, feature_group in featuregroups.items():
 	marker = folium.Marker(
 		location=[row['lat'], row['lon']],
 		popup=get_popup_text(row),
@@ -31,8 +30,7 @@ def random_func(row, featuregroups):
 			color=icon_colors[row['type']][0],
 			prefix='fa')
 		)
-	marker.add_to(featuregroups['type'][row['type']])
-	# marker.add_to(featuregroups['commune'][row['commune']])
+	marker.add_to(featuregroups[row['type']])
 
 
 def get_popup_text(row):
