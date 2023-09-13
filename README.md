@@ -1,7 +1,7 @@
 # DataViz_ProducteurLyon
 
 A map showing where to buy local products in Lyon, France.\
-Data provided by [grand Lyon](https://data.grandlyon.com/).\
+Data provided by [grand Lyon](https://data.grandlyon.com/).
 
 ![Screenshots](/Screenshot.png)
 
